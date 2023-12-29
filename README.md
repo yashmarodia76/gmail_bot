@@ -47,7 +47,7 @@ To set up OAuth 2.0 authentication for your application, follow these steps:
 17. Replace REFRESH_TOKEN with the refresh token.
 Save the secret.js file.
 
-Areas where your code can be improved are:
+Areas where our code can be improved are:
 1. Error Handling: Currently, if something goes wrong, the code logs it but doesn't handle errors well. It would be better to deal with errors more effectively to ensure smoother operation.
 2. Code Efficiency: The code could be made more efficient, especially when dealing with a large number of emails.
 3. Time Monitoring Enhancement: Instead of the current random time intervals, integrating a cron jobs package could improve the scheduling of email-related tasks, enhancing the precision and reliability of the application.
